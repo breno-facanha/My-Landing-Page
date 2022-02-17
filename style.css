@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 header{
     height: 100px;
     background-image: linear-gradient(to bottom, #155939,#03A65A,#04BF68 );
@@ -18,6 +19,11 @@ header{
 header p{
     margin: 4rem;
 }
+
+header a {
+    text-decoration: none;
+    color: #F0F2F5;
+}
 body{
     background-color: #155939;
 }
@@ -27,19 +33,25 @@ main{
     background-color: #155939;
 }
 
-main img{
-    height: 400px;
-    
-}
-
 .primeiraSecao{
     display: flex;
     justify-content: space-around;
 }
 
+.primeiraSecao img{
+    transition: all 2s ease-out;
+    height: 300px;
+}
+
+.primeiraSecao img:hover{
+    transform: scale(1.05);
+    transition-duration: 2s;
+    transition: .3;
+    transform: rotatez(360deg);
+}
+
 .primeiraSecao div{
-    margin-top: 50px;
-    
+    margin-top: 50px;    
     justify-content: space-around;
 }
 
@@ -137,8 +149,19 @@ main img{
     transition: .3;
 }
 
+.terceiraSecao img{
+    border: #F0F2F5 1px solid;
+    border-radius: 50%;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.terceiraSecao a{
+transition: all 0.5s ease-out;
+}
+
 .terceiraSecao a:hover{
-    transform: scale(1.6);
+    transform: scale(1.5);
     transition-duration: .5s;
     transition: .3;   
 }
@@ -148,12 +171,7 @@ footer{
     background-image: linear-gradient(to bottom, #04BF68,#03A65A, #155939);
 }
 
-footer img{
-    border: #F0F2F5 1px solid;
-    border-radius: 50%;
-    background-color: white;
-    border-radius: 50%;
-}
+
 /* Color Theme Swatches in Hex */
 .Hiking-Mobile-App-|-UX-UI-Design-1-hex { color: #260816; }
 .Hiking-Mobile-App-|-UX-UI-Design-2-hex { color: #232426; }
