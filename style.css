@@ -20,9 +20,10 @@ header p{
     margin: 4rem;
 }
 
-header a {
+header a{
     text-decoration: none;
     color: #F0F2F5;
+    transition: all 0.3s ease-out;
 }
 body{
     background-color: #155939;
@@ -136,6 +137,12 @@ main{
     height: 40px;
 }
 
+
+header a:hover{
+    transform: scale(1.1);
+    transition-duration: .4s;
+    transition: .3;
+}
 .projetos p:hover{
     transform: scale(1.2);
     transition-duration: .4s;
