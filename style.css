@@ -34,17 +34,28 @@ main{
     background-color: #155939;
 }
 
+.nomeDev{
+    display:flex ;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.nomeDev img{
+    width: 600px; 
+}
+
 .primeiraSecao{
     display: flex;
     justify-content: space-around;
 }
 
-.primeiraSecao img{
+.primeiraSecao .imagen img{
     transition: all 2s ease-out;
     height: 300px;
 }
 
-.primeiraSecao img:hover{
+.primeiraSecao .imagen img:hover{
     transform: scale(1.05);
     transition-duration: 2s;
     transition: .3;
