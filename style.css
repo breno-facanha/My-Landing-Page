@@ -189,6 +189,59 @@ footer{
     background-image: linear-gradient(to bottom, #04BF68,#03A65A, #155939);
 }
 
+@media (max-width: 1220px){
+    .segundaSecao div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .segundaSecao  img{
+        width: 59px;
+       
+        padding-bottom: 10px;
+    }
+}
+
+@media (max-width: 900px){
+    .primeiraSecao{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .primeiraSecao p{
+        text-align: center;
+    }
+     
+    main{
+        height: 1450px;
+    }
+    .segundaSecao{
+        flex-wrap: wrap;
+    }
+
+    .segundaSecao div{
+        width: 500px;
+    }
+}
+
+@media (max-width: 620px){
+    header p{
+        margin: 2rem;
+    }
+
+    .primeiraSecao p{
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 580px){
+    .segundaSecao div{
+        width: 350px;
+    }
+}
+
 
 /* Color Theme Swatches in Hex */
 .Hiking-Mobile-App-|-UX-UI-Design-1-hex { color: #260816; }
