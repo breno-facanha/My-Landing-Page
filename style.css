@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 header{
     height: 100px;
     background-image: linear-gradient(to bottom, #155939,#03A65A,#04BF68 );
@@ -185,7 +186,7 @@ transition: all 0.5s ease-out;
 }
 
 footer{
-    height: 100px;
+    height: 100px  ;
     background-image: linear-gradient(to bottom, #04BF68,#03A65A, #155939);
 }
 
@@ -240,6 +241,11 @@ footer{
     .segundaSecao div{
         width: 400px;
     }
+}
+
+::-webkit-scrollbar { 
+    width: 0px;
+    height: 0px 
 }
 
 
