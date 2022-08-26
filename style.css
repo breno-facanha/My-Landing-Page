@@ -7,7 +7,7 @@
 
 header{
     height: 100px;
-    background-image: linear-gradient(to bottom, #155939,#03A65A,#04BF68 );
+    background-image: linear-gradient(to bottom, #0f70ee,  #22A2F2, #2ECEF2);
     color: #F0F2F5 ;
     display: flex;
     justify-content: center;
@@ -27,12 +27,12 @@ header a{
     transition: all 0.3s ease-out;
 }
 body{
-    background-color: #155939;
+    background-color: #0c52ad;
 }
 
 main{
     height: 720px;
-    background-color: #155939;
+    background-color: #009de6;
 }
 
 .nomeDev{
@@ -91,7 +91,7 @@ main{
   margin: 20px;
   width: 700px;
   transition: all 0.3s ease-out;
-  background-color: #03A65A;
+  background-color: #37e1ff;
 }
 
 .segundaSecao .formacao{
@@ -187,7 +187,7 @@ transition: all 0.5s ease-out;
 
 footer{
     height: 100px  ;
-    background-image: linear-gradient(to bottom, #04BF68,#03A65A, #155939);
+    background-image: linear-gradient(to bottom, #2ECEF2, #22A2F2, #0f70ee);
 }
 
 @media (max-width: 1220px){
@@ -269,3 +269,24 @@ footer{
 .Hiking-Mobile-App-|-UX-UI-Design-3-hsla { color: hsla(151, 96, 38, 1); }
 .Hiking-Mobile-App-|-UX-UI-Design-4-hsla { color: hsla(151, 96, 33, 1); }
 .Hiking-Mobile-App-|-UX-UI-Design-5-hsla { color: hsla(151, 62, 21, 1); }
+
+/* Color Theme Swatches in Hex */
+.DevOps-Methodology-Development-Operations-agil-programming-technology-concept-1-hex { color: #0D65D9; }
+.DevOps-Methodology-Development-Operations-agil-programming-technology-concept-2-hex { color: #0C2240; }
+.DevOps-Methodology-Development-Operations-agil-programming-technology-concept-3-hex { color: #22A2F2; }
+.DevOps-Methodology-Development-Operations-agil-programming-technology-concept-4-hex { color: #2ECEF2; }
+.DevOps-Methodology-Development-Operations-agil-programming-technology-concept-5-hex { color: #3DF2F2; }
+
+/* Color Theme Swatches in RGBA */
+.DevOps-Methodology-Development-Operations-agil-programming-technology-concept-1-rgba { color: rgba(13, 101, 216, 1); }
+.DevOps-Methodology-Development-Operations-agil-programming-technology-concept-2-rgba { color: rgba(12, 34, 63, 1); }
+.DevOps-Methodology-Development-Operations-agil-programming-technology-concept-3-rgba { color: rgba(33, 162, 242, 1); }
+.DevOps-Methodology-Development-Operations-agil-programming-technology-concept-4-rgba { color: rgba(46, 206, 242, 1); }
+.DevOps-Methodology-Development-Operations-agil-programming-technology-concept-5-rgba { color: rgba(60, 242, 242, 1); }
+
+/* Color Theme Swatches in HSLA */
+.DevOps-Methodology-Development-Operations-agil-programming-technology-concept-1-hsla { color: hsla(213, 88, 45, 1); }
+.DevOps-Methodology-Development-Operations-agil-programming-technology-concept-2-hsla { color: hsla(213, 68, 14, 1); }
+.DevOps-Methodology-Development-Operations-agil-programming-technology-concept-3-hsla { color: hsla(202, 89, 54, 1); }
+.DevOps-Methodology-Development-Operations-agil-programming-technology-concept-4-hsla { color: hsla(191, 88, 56, 1); }
+.DevOps-Methodology-Development-Operations-agil-programming-technology-concept-5-hsla { color: hsla(180, 87, 59, 1); }
